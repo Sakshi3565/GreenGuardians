@@ -84,3 +84,12 @@ The main goal is to help manage tree plantation campaigns digitally – from cre
   - Deployed on Tomcat 9.
   - Checked all user roles (Admin, Tracker, Manager, User).
 
+##  How to Run
+- Clone this repository.
+- Import into *Eclipse* as a Dynamic Web Project.
+- Create a *MySQL database* named `greenguardians` and import the SQL file.
+- Update DB credentials in `DBConnection.java`.
+- Add the project to *Apache Tomcat 9*.
+- Run the server and open:
+http://localhost:8080/GreenGuardians/
+
